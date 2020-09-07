@@ -1,0 +1,40 @@
+/* buttons */
+.btn {
+    background: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 35px;
+}
+
+.btn-outline {
+    background: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 35px;
+    border: 1px solid #fff;
+}
+
+.btn-light {
+    background: #fff;
+    color: var(--secondary-color);
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 35px;
+    border: 1px solid var(--secondary-color);
+}
+
+
+
+/* Horizontal line */
+.hr-secondary {
+    margin: auto;
+    width: 99%;
+    height: 2px;
+    background-color: #ccc;
+    border: none;
+}
